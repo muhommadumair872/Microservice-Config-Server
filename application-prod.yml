@@ -1,1 +1,6 @@
-
+# Eureka Client enable karna
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+spring.application.name=Prod
+# Optional - Register yourself
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
